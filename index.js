@@ -1,4 +1,5 @@
 import { startDevServer } from "./lib/devServer.js";
+import { translateLanguageData } from "./lib/translate.js";
 import {
   generateGetDataFn,
   compilePagesPugToFn,
@@ -13,5 +14,6 @@ export const pugSiteCore = {
   compilePagesPugToFn,
   fetchDataToJsonFile,
   buildFn,
-  buildStatic
+  buildStatic,
+  translateLanguageData
 };

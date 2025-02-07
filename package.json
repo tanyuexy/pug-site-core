@@ -1,17 +1,14 @@
 {
   "name": "pug-site-core",
-  "version": "1.0.2",
+  "version": "1.0.7",
   "main": "index.js",
   "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "keywords": [],
   "author": "xy",
   "dependencies": {
     "@google-cloud/translate": "^8.5.0",
     "async": "^3.2.6",
-    "axios": "^1.7.7",
     "chokidar": "^3.6.0",
     "express": "^4.19.2",
     "express-useragent": "^1.0.15",
@@ -30,7 +27,7 @@
     "ws": "^8.18.0"
   },
   "license": "ISC",
-  "description": "",
+  "description": "指令修复",
   "files": [
     "lib/",
     "index.js"
