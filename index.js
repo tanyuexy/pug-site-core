@@ -1,4 +1,17 @@
 import { startDevServer } from "./lib/devServer.js";
-export default {
-  startDevServer
+import {
+  generateGetDataFn,
+  compilePagesPugToFn,
+  fetchDataToJsonFile,
+  buildFn,
+  buildStatic
+} from "./lib/generate.js";
+
+export const pugSiteCore = {
+  startDevServer,
+  generateGetDataFn,
+  compilePagesPugToFn,
+  fetchDataToJsonFile,
+  buildFn,
+  buildStatic
 };

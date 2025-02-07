@@ -2,3 +2,10 @@ node_modules
 .DS_Store
 *.log
 
+# 忽略除了 lib 和 index.js 之外的所有文件
+/*
+!/lib/
+!/index.js
+!/package.json
+!/README.md
+

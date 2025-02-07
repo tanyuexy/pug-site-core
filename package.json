@@ -1,6 +1,6 @@
 {
   "name": "pug-site-core",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -30,5 +30,12 @@
     "ws": "^8.18.0"
   },
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "files": [
+    "lib/",
+    "index.js"
+  ],
+  "exports": {
+    ".": "./index.js"
+  }
 }
