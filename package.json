@@ -24,7 +24,8 @@
     "pug": "^3.0.3",
     "tcp-port-used": "^1.0.2",
     "uglify-js": "^3.19.3",
-    "ws": "^8.18.0"
+    "ws": "^8.18.0",
+    "axios": "^1.7.7"
   },
   "license": "ISC",
   "description": "指令修复",
