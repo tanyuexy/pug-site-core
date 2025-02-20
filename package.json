@@ -3,7 +3,16 @@
   "version": "1.0.8",
   "main": "index.js",
   "type": "module",
-  "scripts": {},
+  "scripts": {
+    "dev": "nodemon --ext js --ignore node_modules/ --ignore template/ index.js",
+    "getData": "node index.js",
+    "getFun": "node index.js",
+    "compileFn": "node index.js",
+    "buildFn": "node index.js",
+    "buildStatic": "node index.js",
+    "lang": "node index.js",
+    "build": "npm run getData && npm run buildFn"
+  },
   "keywords": [],
   "author": "xy",
   "dependencies": {
