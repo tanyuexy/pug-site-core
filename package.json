@@ -1,6 +1,6 @@
 {
   "name": "pug-site-core",
-  "version": "1.0.8",
+  "version": "1.0.10",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -37,7 +37,7 @@
     "axios": "^1.7.7"
   },
   "license": "ISC",
-  "description": "添加axios依赖",
+  "description": "修复禁止debug的问题",
   "files": [
     "lib/",
     "index.js"
