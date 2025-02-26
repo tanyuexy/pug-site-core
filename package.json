@@ -1,6 +1,6 @@
 {
   "name": "pug-site-core",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -37,7 +37,7 @@
     "axios": "^1.7.7"
   },
   "license": "ISC",
-  "description": "修复禁止debug的问题",
+  "description": "注释掉包内为了调试的代码",
   "files": [
     "lib/",
     "index.js"
