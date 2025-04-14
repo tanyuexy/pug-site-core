@@ -5,7 +5,7 @@ import {
   compilePagesPugToFn,
   fetchDataToJsonFile,
   buildFn,
-  buildStatic
+  buildStatic,
 } from "./lib/generate.js";
 
 export const pugSiteCore = {
@@ -15,7 +15,7 @@ export const pugSiteCore = {
   fetchDataToJsonFile,
   buildFn,
   buildStatic,
-  translateLanguageData
+  translateLanguageData,
 };
 
 let curCmd = process.env.npm_lifecycle_event;

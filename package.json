@@ -1,6 +1,6 @@
 {
   "name": "pug-site-core",
-  "version": "1.0.12",
+  "version": "2.0.0",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -37,7 +37,7 @@
     "axios": "^1.7.7"
   },
   "license": "ISC",
-  "description": "修复刷新代码切换端口bug",
+  "description": "剔除不必要代码、添加router自定义路由并且开发环境也支持、添加自定义数据",
   "files": [
     "lib/",
     "index.js"
