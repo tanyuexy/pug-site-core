@@ -57,5 +57,5 @@ if (args.includes("dev")) {
     process.exit(1);
   }
 } else {
-  console.log(`请添加 dev 参数以执行命令，例如: npm run getData dev`);
+  // console.log(`请添加 dev 参数以执行命令，例如: npm run getData dev`);
 }

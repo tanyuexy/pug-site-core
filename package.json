@@ -1,6 +1,6 @@
 {
   "name": "pug-site-core",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -37,7 +37,7 @@
     "axios": "^1.7.7"
   },
   "license": "ISC",
-  "description": "优化并发处理现在可以精细到一个数据请求",
+  "description": "去掉调试log",
   "files": [
     "lib/",
     "index.js"
