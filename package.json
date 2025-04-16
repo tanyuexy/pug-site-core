@@ -1,6 +1,6 @@
 {
   "name": "pug-site-core",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -37,7 +37,7 @@
     "axios": "^1.7.7"
   },
   "license": "ISC",
-  "description": "优化log",
+  "description": "优化并发写入json文件",
   "files": [
     "lib/",
     "index.js"
