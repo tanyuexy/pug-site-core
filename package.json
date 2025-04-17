@@ -1,6 +1,6 @@
 {
   "name": "pug-site-core",
-  "version": "2.0.9",
+  "version": "2.0.10",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -37,7 +37,7 @@
     "axios": "^1.7.7"
   },
   "license": "ISC",
-  "description": "优化注入函数的判断、添加init函数",
+  "description": "修改log信息",
   "files": [
     "lib/",
     "index.js"
