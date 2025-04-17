@@ -1,6 +1,6 @@
 {
   "name": "pug-site-core",
-  "version": "2.0.10",
+  "version": "2.0.11",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -11,7 +11,8 @@
     "buildFn": "node index.js",
     "buildStatic": "node index.js",
     "lang": "node index.js",
-    "build": "npm run getData && npm run buildFn"
+    "build": "npm run getData && npm run buildFn",
+    "update": "npm install pug-site-core@latest"
   },
   "keywords": [],
   "author": "xy",
@@ -37,7 +38,7 @@
     "axios": "^1.7.7"
   },
   "license": "ISC",
-  "description": "修改log信息",
+  "description": "取消buildFn打包需要jsonData目录",
   "files": [
     "lib/",
     "index.js"
