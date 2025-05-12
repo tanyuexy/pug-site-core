@@ -1,5 +1,6 @@
 import { startDevServer } from "./lib/devServer.js";
 import { translateLanguageData } from "./lib/translate.js";
+import { compressImages, processImagemin } from "./lib/imagemin.js";
 import {
   generateGetDataFn,
   compilePagesPugToFn,
@@ -16,6 +17,7 @@ export const pugSiteCore = {
   buildFn,
   buildStatic,
   translateLanguageData,
+  compressImages,
 };
 
 let curCmd = process.env.npm_lifecycle_event;
@@ -48,6 +50,11 @@ if (args.includes("dev")) {
         break;
       case "lang":
         await translateLanguageData();
+        break;
+      case "imagemin":
+        // 移除 dev 参数后传递其他参数
+        const imageminArgs = args.filter((arg) => arg !== "dev");
+        await processImagemin(imageminArgs);
         break;
       default:
         console.log(`未知的命令: ${curCmd}`);

@@ -1,6 +1,6 @@
 {
   "name": "pug-site-core",
-  "version": "2.0.11",
+  "version": "2.0.12",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -11,6 +11,7 @@
     "buildFn": "node index.js",
     "buildStatic": "node index.js",
     "lang": "node index.js",
+    "imagemin": "node index.js",
     "build": "npm run getData && npm run buildFn",
     "update": "npm install pug-site-core@latest"
   },
@@ -19,6 +20,7 @@
   "dependencies": {
     "@google-cloud/translate": "^8.5.0",
     "async": "^3.2.6",
+    "axios": "^1.7.7",
     "chokidar": "^3.6.0",
     "express": "^4.19.2",
     "express-useragent": "^1.0.15",
@@ -34,16 +36,23 @@
     "pug": "^3.0.3",
     "tcp-port-used": "^1.0.2",
     "uglify-js": "^3.19.3",
-    "ws": "^8.18.0",
-    "axios": "^1.7.7"
+    "ws": "^8.18.0"
   },
   "license": "ISC",
-  "description": "取消buildFn打包需要jsonData目录",
+  "description": "增加图片压缩功能",
   "files": [
     "lib/",
     "index.js"
   ],
   "exports": {
     ".": "./index.js"
+  },
+  "devDependencies": {
+    "glob": "^10.3.10",
+    "imagemin": "^8.0.1",
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-pngquant": "^9.0.2",
+    "imagemin-svgo": "^10.0.1"
   }
 }
