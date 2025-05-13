@@ -1,6 +1,6 @@
 import { startDevServer } from "./lib/devServer.js";
 import { translateLanguageData } from "./lib/translate.js";
-import { compressImages, processImagemin } from "./lib/imagemin.js";
+import { processImagemin } from "./lib/imagemin.js";
 import {
   generateGetDataFn,
   compilePagesPugToFn,
@@ -17,7 +17,7 @@ export const pugSiteCore = {
   buildFn,
   buildStatic,
   translateLanguageData,
-  compressImages,
+  processImagemin,
 };
 
 let curCmd = process.env.npm_lifecycle_event;
