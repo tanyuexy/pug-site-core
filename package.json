@@ -1,6 +1,6 @@
 {
   "name": "pug-site-core",
-  "version": "2.0.16",
+  "version": "2.0.17",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -45,7 +45,7 @@
     "imagemin-svgo": "^10.0.1"
   },
   "license": "ISC",
-  "description": "修复带getData排除函数参数时无法删掉以前json文件问题、优化代码",
+  "description": "getFun生成函数时的bug修复",
   "files": [
     "lib/",
     "index.js"
