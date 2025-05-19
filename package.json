@@ -1,6 +1,6 @@
 {
   "name": "pug-site-core",
-  "version": "2.0.17",
+  "version": "2.0.18",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -25,6 +25,13 @@
     "express": "^4.19.2",
     "express-useragent": "^1.0.15",
     "fs-extra": "^11.2.0",
+    "glob": "^10.3.10",
+    "http-proxy-middleware": "^3.0.5",
+    "imagemin": "^8.0.1",
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-pngquant": "^9.0.2",
+    "imagemin-svgo": "^10.0.1",
     "ip": "^2.0.1",
     "javascript-obfuscator": "^4.1.1",
     "jstransformer-autoprefixer": "^2.0.0",
@@ -36,22 +43,15 @@
     "pug": "^3.0.3",
     "tcp-port-used": "^1.0.2",
     "uglify-js": "^3.19.3",
-    "ws": "^8.18.0",
-    "glob": "^10.3.10",
-    "imagemin": "^8.0.1",
-    "imagemin-gifsicle": "^7.0.0",
-    "imagemin-mozjpeg": "^10.0.0",
-    "imagemin-pngquant": "^9.0.2",
-    "imagemin-svgo": "^10.0.1"
+    "ws": "^8.18.0"
   },
   "license": "ISC",
-  "description": "getFun生成函数时的bug修复",
+  "description": "增加本地server的代理功能",
   "files": [
     "lib/",
     "index.js"
   ],
   "exports": {
     ".": "./index.js"
-  },
-  "devDependencies": {}
+  }
 }
