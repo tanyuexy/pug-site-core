@@ -1,6 +1,6 @@
 {
   "name": "pug-site-core",
-  "version": "2.0.19",
+  "version": "2.0.20",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -46,7 +46,7 @@
     "ws": "^8.18.0"
   },
   "license": "ISC",
-  "description": "修复错误的删除文件问题",
+  "description": "再次修复错误的删除文件问题",
   "files": [
     "lib/",
     "index.js"
