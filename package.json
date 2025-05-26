@@ -1,6 +1,6 @@
 {
   "name": "pug-site-core",
-  "version": "2.0.20",
+  "version": "2.0.21",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -21,7 +21,9 @@
     "@google-cloud/translate": "^8.5.0",
     "async": "^3.2.6",
     "axios": "^1.7.7",
+    "cheerio": "^1.0.0",
     "chokidar": "^3.6.0",
+    "css": "^3.0.0",
     "detect-port": "^2.1.0",
     "express": "^4.19.2",
     "express-useragent": "^1.0.15",
@@ -45,7 +47,7 @@
     "ws": "^8.18.0"
   },
   "license": "ISC",
-  "description": "再次修复错误的删除文件问题",
+  "description": "pug文件组件作用域构建以及默认将-中斜杠文件名处理为_下斜杠",
   "files": [
     "lib/",
     "index.js"
