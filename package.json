@@ -1,6 +1,6 @@
 {
   "name": "pug-site-core",
-  "version": "2.0.21",
+  "version": "2.0.22",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -47,7 +47,7 @@
     "ws": "^8.18.0"
   },
   "license": "ISC",
-  "description": "pug文件组件作用域构建以及默认将-中斜杠文件名处理为_下斜杠",
+  "description": "ai优化一版pug文件组件作用域构建",
   "files": [
     "lib/",
     "index.js"
