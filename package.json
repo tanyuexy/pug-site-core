@@ -13,7 +13,8 @@
     "lang": "node index.js",
     "imagemin": "node index.js",
     "build": "npm run getData && npm run buildFn",
-    "update": "npm install pug-site-core@latest"
+    "update": "npm install pug-site-core@latest",
+    "debug": "node index.js"
   },
   "keywords": [],
   "author": "xy",
@@ -43,6 +44,7 @@
     "lodash": "^4.17.21",
     "nodemon": "^3.1.4",
     "pug": "^3.0.3",
+    "pug-lexer": "^5.0.1",
     "uglify-js": "^3.19.3",
     "ws": "^8.18.0"
   },

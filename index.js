@@ -7,6 +7,7 @@ import {
   fetchDataToJsonFile,
   buildFn,
   buildStatic,
+  createDebugTemplate,
 } from "./lib/generate.js";
 
 export const pugSiteCore = {
@@ -18,6 +19,7 @@ export const pugSiteCore = {
   buildStatic,
   translateLanguageData,
   processImagemin,
+  createDebugTemplate,
 };
 
 let curCmd = process.env.npm_lifecycle_event;
@@ -55,6 +57,9 @@ if (args.includes("dev")) {
         // 移除 dev 参数后传递其他参数
         const imageminArgs = args.filter((arg) => arg !== "dev");
         await processImagemin(imageminArgs);
+        break;
+      case "debug":
+        await createDebugTemplate();
         break;
       default:
         console.log(`未知的命令: ${curCmd}`);
