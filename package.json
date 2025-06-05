@@ -1,6 +1,6 @@
 {
   "name": "pug-site-core",
-  "version": "2.0.22",
+  "version": "3.0.0",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -51,7 +51,7 @@
     "ws": "^8.18.0"
   },
   "license": "ISC",
-  "description": "ai优化一版pug文件组件作用域构建",
+  "description": "增加debug模板、添加abtest功能",
   "files": [
     "lib/",
     "index.js"
