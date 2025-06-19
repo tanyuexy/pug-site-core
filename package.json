@@ -1,6 +1,6 @@
 {
   "name": "pug-site-core",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -51,7 +51,7 @@
     "ws": "^8.18.0"
   },
   "license": "ISC",
-  "description": "增加debug模板、添加abtest功能",
+  "description": "修复并优化静态html打包功能、并将默认下载数据线程12->3",
   "files": [
     "lib/",
     "index.js"
