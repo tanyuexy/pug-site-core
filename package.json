@@ -1,6 +1,6 @@
 {
   "name": "pug-site-core",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -51,7 +51,7 @@
     "ws": "^8.18.0"
   },
   "license": "ISC",
-  "description": "优化静态html打包的log、并优化默认下载数据线程",
+  "description": "修复对带.符号的文件名处理",
   "files": [
     "lib/",
     "index.js"
