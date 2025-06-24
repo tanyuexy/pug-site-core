@@ -1,6 +1,6 @@
 {
   "name": "pug-site-core",
-  "version": "3.0.4",
+  "version": "3.0.5",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -52,7 +52,7 @@
     "ws": "^8.18.0"
   },
   "license": "ISC",
-  "description": "增加html文件的压缩功能以及修改并发数",
+  "description": "html文件的压缩功能增加错误堆栈信息",
   "files": [
     "lib/",
     "index.js"
