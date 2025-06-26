@@ -1,6 +1,6 @@
 {
   "name": "pug-site-core",
-  "version": "3.0.12",
+  "version": "3.0.14",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -52,7 +52,7 @@
     "ws": "^8.18.0"
   },
   "license": "ISC",
-  "description": "修改静态打包的log顺序",
+  "description": "优自定义路由的pug文件路径获取以及路径bug修复",
   "files": [
     "lib/",
     "index.js"
