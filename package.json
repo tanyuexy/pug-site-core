@@ -1,6 +1,6 @@
 {
   "name": "pug-site-core",
-  "version": "3.0.11",
+  "version": "3.0.12",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -52,7 +52,7 @@
     "ws": "^8.18.0"
   },
   "license": "ISC",
-  "description": "修复语言数据打包失败的问题以及commonData的合并问题",
+  "description": "修改静态打包的log顺序",
   "files": [
     "lib/",
     "index.js"
