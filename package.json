@@ -1,6 +1,6 @@
 {
   "name": "pug-site-core",
-  "version": "3.0.14",
+  "version": "3.0.15",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -52,7 +52,7 @@
     "ws": "^8.18.0"
   },
   "license": "ISC",
-  "description": "优自定义路由的pug文件路径获取以及路径bug修复",
+  "description": "取消压缩失败的massage log",
   "files": [
     "lib/",
     "index.js"
