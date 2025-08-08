@@ -1,6 +1,6 @@
 {
   "name": "pug-site-core",
-  "version": "3.0.15",
+  "version": "3.0.16",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -52,7 +52,7 @@
     "ws": "^8.18.0"
   },
   "license": "ISC",
-  "description": "取消压缩失败的massage log",
+  "description": "增加ABTest数据获取的接口",
   "files": [
     "lib/",
     "index.js"
