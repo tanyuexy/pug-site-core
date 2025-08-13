@@ -1,6 +1,6 @@
 {
   "name": "pug-site-core",
-  "version": "3.0.17",
+  "version": "3.0.18",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -52,7 +52,7 @@
     "ws": "^8.18.0"
   },
   "license": "ISC",
-  "description": "修改ABTest数据获取的接口",
+  "description": "siteAbbr可选配置,添加会在common.langCommon.ABTestInfo中添加ABTestInfo数据开启abtest,否则不会添加",
   "files": [
     "lib/",
     "index.js"
