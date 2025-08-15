@@ -1,6 +1,6 @@
 {
   "name": "pug-site-core",
-  "version": "3.0.19",
+  "version": "3.0.20",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -52,7 +52,7 @@
     "ws": "^8.18.0"
   },
   "license": "ISC",
-  "description": "增加从接口获取语言列表、增加翻译所有语言指令、增加linux系统判断",
+  "description": "npm run lang all=true 翻译所有语言改为npm run lang all",
   "files": [
     "lib/",
     "index.js"
