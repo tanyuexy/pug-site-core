@@ -1,6 +1,6 @@
 {
   "name": "pug-site-core",
-  "version": "3.0.18",
+  "version": "3.0.19",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -52,7 +52,7 @@
     "ws": "^8.18.0"
   },
   "license": "ISC",
-  "description": "siteAbbr可选配置,添加会在common.langCommon.ABTestInfo中添加ABTestInfo数据开启abtest,否则不会添加",
+  "description": "增加从接口获取语言列表、增加翻译所有语言指令、增加linux系统判断",
   "files": [
     "lib/",
     "index.js"
