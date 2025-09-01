@@ -1,6 +1,6 @@
 {
   "name": "pug-site-core",
-  "version": "3.0.20",
+  "version": "3.0.21",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -52,7 +52,7 @@
     "ws": "^8.18.0"
   },
   "license": "ISC",
-  "description": "npm run lang all=true 翻译所有语言改为npm run lang all",
+  "description": "语言翻译增加格式化功能",
   "files": [
     "lib/",
     "index.js"
