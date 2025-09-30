@@ -1,6 +1,6 @@
 {
   "name": "pug-site-core",
-  "version": "3.0.21",
+  "version": "3.0.22",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -52,7 +52,7 @@
     "ws": "^8.18.0"
   },
   "license": "ISC",
-  "description": "语言翻译增加格式化功能",
+  "description": "修改打包没有从api获取语言列表的bug",
   "files": [
     "lib/",
     "index.js"
