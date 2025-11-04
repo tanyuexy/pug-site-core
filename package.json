@@ -52,7 +52,7 @@
     "ws": "^8.18.0"
   },
   "license": "ISC",
-  "description": "修改打包没有从api获取语言列表的bug",
+  "description": "增加ro语言",
   "files": [
     "lib/",
     "index.js"
