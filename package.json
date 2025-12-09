@@ -1,6 +1,6 @@
 {
   "name": "pug-site-core",
-  "version": "3.0.24",
+  "version": "3.0.25",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -52,7 +52,7 @@
     "ws": "^8.18.0"
   },
   "license": "ISC",
-  "description": "getData不删旧数据，增量写文件",
+  "description": "getData不删旧数据，增量写文件，通过getData skip触发",
   "files": [
     "lib/",
     "index.js"
