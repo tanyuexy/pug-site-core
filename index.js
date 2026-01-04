@@ -7,6 +7,7 @@ import {
   fetchDataToJsonFile,
   buildFn,
   buildStatic,
+  buildSrc,
   createDebugTemplate
 } from "./lib/generate.js";
 
@@ -17,6 +18,7 @@ export const pugSiteCore = {
   fetchDataToJsonFile,
   buildFn,
   buildStatic,
+  buildSrc,
   translateLanguageData,
   processImagemin,
   createDebugTemplate
